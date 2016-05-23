@@ -1,0 +1,11 @@
+application: pinger-1316
+runtime: python27
+api_version: 1
+threadsafe: true
+version: 4
+
+handlers:
+- url: /.*
+  script: pinger.app
+env_variables:
+  PINGING_URLS: first|second

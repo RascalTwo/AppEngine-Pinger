@@ -1,0 +1,5 @@
+cron:
+- description: my cron job
+  url: /docron
+  target: v0
+  schedule: every 12 hours
